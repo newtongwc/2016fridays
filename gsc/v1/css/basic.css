@@ -1,5 +1,10 @@
 body {
-  background: #eeeeee;
-  font-family: “Trebuchet MS”, Verdana, Arial, serif;
-  margin: 100px;
+    background: #eeeeee;
+    font-family: “Trebuchet MS”, Verdana, Arial, serif;
+    margin: 100px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
 }

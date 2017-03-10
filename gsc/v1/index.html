@@ -5,14 +5,14 @@
     <link rel="stylesheet" type="text/css" href="css/basic.css">
   </head>
   <body>
-  <h3>Girl Scout Cookies Sale</h3>
+  <h3>Girl Scout Cookie Sale</h3>
   <p>Each Box of cookie is <strong>$5</strong></p>
   <form>
     Your Name:
     <input type="text" id="name">
     <br><br>
 
-    Cookie Name:  How Many:<br>
+    <label>Cookie Name</label>  <label>How Many</label><br>
     <input type="checkbox" id="cookie1" value="Thin Mints">
     <label for="cookie1">ThinMints</label>
     <input type="number" id="count1" min="1" max="99">
@@ -29,7 +29,7 @@
     <br>
 
     <input type="checkbox" id="cookie4" value="Do-si-dos">
-    <label for="cookie4">Dosidos</label>
+    <label for="cookie4">Do-si-dos</label>
     <input type="number" id="count4" min="1" max="99">
     <br>
 
@@ -39,22 +39,23 @@
     <br>
 
     <input type="checkbox" id="cookie6" value="Savannah-Smiles">
-    <label for="cookie6">SavannahSmiles</label>
+    <label for="cookie6">Savannah Smiles</label>
     <input type="number" id="count6" min="1" max="99">
     <br>
 
     <input type="checkbox" id="cookie7" value="Girl Scout Smores">
-    <label for="cookie7">GirlScoutSmores</label>
+    <label for="cookie7">Girl Scout Smores</label>
     <input type="number" id="count7" min="1" max="99">
     <br>
 
     <input type="checkbox" id="cookie8" value="Toffee Tastic">
-    <label for="cookie8">ToffeeTastic</label>
+    <label for="cookie8">Toffee Tastic</label>
     <input type="number" id="count8" min="1" max="99">
 
     <br> <br>
     <button type="button" id="aButton">Checkout</button>
   </form>
   <p id='msg'>Replace this with cookies name and count selected and total amount due in $</p>
+  <script type="text/javascript" src="js/gsc.js"></script>
 </body>
 </html>
